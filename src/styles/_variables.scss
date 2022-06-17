@@ -1,0 +1,139 @@
+$rhythm: 16 !default;
+
+$grid-columns: 12 !default;
+
+$grid-column-gap: 2rem !default;
+
+$font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", Helvetica, "Helvetica Neue", Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+$font-family-mono: "Spline Sans Mono", Iosevka, "JetBrains Mono", "SF Mono", Menlo, Consolas,
+  "Lucida Console", "Ubuntu Mono", "DejaVu Sans Mono",
+  "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace !default;
+
+$font-family-serif: "New York", "Lucida Bright", Lucidabright, "Lucida Serif",
+  Lucida, "Roboto Slab", "DejaVu Serif", "Bitstream Vera Serif",
+  "Liberation Serif", Georgia, "Times New Roman", Times, serif !default;
+
+$font-size-base: 100% !default;
+
+$font-weights: (
+  "thin": 100,
+  "extralight": 200,
+  "light": 300,
+  "regular": 400,
+  "medium": 500,
+  "semibold": 600,
+  "bold": 700,
+  "extrabold": 800,
+  "black": 900,
+) !default;
+
+$line-height-base: 1.25 !default;
+
+$text-align: (
+  "left",
+  "right",
+  "center",
+  "justify"
+) !default;
+
+$text-transform: (
+  "capitalize",
+  "lowercase",
+  "none",
+  "uppercase"
+) !default;
+
+$color-lightness: (
+  "light": 10,
+  "extralight": 15,
+  "pastel": 20,
+  "pale": 25,
+  "gray-pale": 39,
+) !default;
+
+$color-darkness: (
+  "dark": 20,
+  "extradark": 30,
+  "strong": 40,
+  "black": 50,
+) !default;
+
+$contrast-threshold: 224 !default;
+
+$palette: (
+  "default": #2e3436,
+  "coral": #fe645f,
+  "mandarin": #e0953d,
+  "gold": #fffa51,
+  "lime": #96e054,
+  "sky": #4285bd,
+  "fuchsia": #fe61e7,
+  "chocolate": #8c3f21,
+  "skin": #afaa80,
+  "aluminum": #7e817d,
+  "black": #000000,
+  "white": #ffffff,
+) !default;
+
+$responsive-breakpoints: (
+  "xs": 0,
+  "sm": 576,
+  "md": 768,
+  "lg": 992,
+  "xl": 1200,
+  "xxl": 1400,
+) !default;
+
+$style-directions: (
+  "t": "top",
+  "b": "bottom",
+  "l": "left",
+  "r": "right",
+  "h": "horizontal",
+  "v": "vertical",
+) !default;
+
+$display-types: (
+  none,
+  inline,
+  inline-block,
+  block,
+  table,
+  flex,
+  inline-flex,
+  grid,
+  inline-grid
+) !default;
+
+$flex-direction: (
+  column,
+  column-reverse,
+  row,
+  row-reverse
+) !default;
+
+$flex-wrap: (
+  nowrap,
+  wrap,
+  wrap-reverse
+) !default;
+
+$align-items: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch,
+) !default;
+
+$justify-content: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around,
+  "stretch": stretch,
+) !default;

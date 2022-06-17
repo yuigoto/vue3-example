@@ -1,0 +1,15 @@
+// Imports no Vite consideram `node_modules` como raíz
+@import "normalize.css/normalize.css";
+
+* {
+  &,
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  font-family: "Montserrat Alternates", "Montserrat", Gotham;
+}

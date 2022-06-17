@@ -1,0 +1,35 @@
+@function color-yiq($color,
+  $threshold: $contrast-threshold,
+  $light-color: #ffffff,
+  $dark-color: #000000) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+  $y: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+  @if ($y > $threshold) {
+    @return $dark-color;
+  }
+
+  @return $light-color;
+}
+
+@function get-lightness($name: "light", $map: $color-lightness) {
+  @return map-get($map, $name) or 0;
+}
+
+@function get-darkness($name: "dark", $map: $color-darkness) {
+  @return map-get($map, $name) or 0;
+}
+
+@function get-size($name: "xs", $map: $responsive-breakpoints) {
+  @return map-get($map, $name) or 0;
+}
+
+@function get-color($name: "default", $map: $palette) {
+  @return map-get($map, $name) or #000000;
+}
+
+@function get-font-weight($weight: "regular", $map: $font-weights) {
+  @return map-get($map, $weight) or 400;
+}
