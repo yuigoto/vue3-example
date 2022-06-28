@@ -10,6 +10,10 @@ const routes: Array<MenuRoute> = [
     path: "/",
   },
   {
+    name: "Stores Test",
+    path: "/stores",
+  },
+  {
     name: "Test View",
     path: "/test",
   },
